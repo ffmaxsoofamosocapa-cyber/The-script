@@ -167,7 +167,7 @@ end
 playBlueRedAnimation()
 
 -- Red and blue balls
-local redBall = createBall(Color3.fromRGB(255, 0, 0), Vector3.new(6, 6, 6), true)
+local redBall = createBall(Color3.fromRGB(255, 255, 255), Vector3.new(6, 6, 6), true)
 local blueBall = createBall(Color3.fromRGB(255, 255, 255), Vector3.new(6, 6, 6), true)
 
 -- Follow player
