@@ -215,7 +215,7 @@ local function attractNearbyParts()
 	end
 
 	local maxDistance = 150
-	local pullRadius = 100
+	local pullRadius = 10000
 	local pullForce = 400000
 
 	local region = Region3.new(
